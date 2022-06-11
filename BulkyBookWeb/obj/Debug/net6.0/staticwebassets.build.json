@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5KCWs09pBUYsE6fgrZIlU8JdRv9cs8scPDaJo5TQbWI=",
+  "Hash": "rXmUHrbzZHSk9W6hzNA55qXyk3o16z01WQxSQrRKdBY=",
   "Source": "BulkyBookWeb",
   "BasePath": "_content/BulkyBookWeb",
   "Mode": "Default",
@@ -102,40 +102,6 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\internship\\Tek systems\\Udemy\\.Net Core Mvc\\BulkyBook\\BulkyBookWeb\\wwwroot\\images\\products\\2de29a8b-46e8-49dc-8f7d-c03f77a60fe2.jpg",
-      "SourceId": "BulkyBookWeb",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\internship\\Tek systems\\Udemy\\.Net Core Mvc\\BulkyBook\\BulkyBookWeb\\wwwroot\\",
-      "BasePath": "_content/BulkyBookWeb",
-      "RelativePath": "images/products/2de29a8b-46e8-49dc-8f7d-c03f77a60fe2.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\2de29a8b-46e8-49dc-8f7d-c03f77a60fe2.jpg"
-    },
-    {
-      "Identity": "D:\\internship\\Tek systems\\Udemy\\.Net Core Mvc\\BulkyBook\\BulkyBookWeb\\wwwroot\\images\\products\\2f851e6d-e234-4b2f-b51a-df7e9ba85ff4.jpg",
-      "SourceId": "BulkyBookWeb",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\internship\\Tek systems\\Udemy\\.Net Core Mvc\\BulkyBook\\BulkyBookWeb\\wwwroot\\",
-      "BasePath": "_content/BulkyBookWeb",
-      "RelativePath": "images/products/2f851e6d-e234-4b2f-b51a-df7e9ba85ff4.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\2f851e6d-e234-4b2f-b51a-df7e9ba85ff4.jpg"
-    },
-    {
       "Identity": "D:\\internship\\Tek systems\\Udemy\\.Net Core Mvc\\BulkyBook\\BulkyBookWeb\\wwwroot\\images\\products\\7686c4a0-3743-414f-90b0-87f61b96f496.jpg",
       "SourceId": "BulkyBookWeb",
       "SourceType": "Discovered",
@@ -151,23 +117,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\7686c4a0-3743-414f-90b0-87f61b96f496.jpg"
-    },
-    {
-      "Identity": "D:\\internship\\Tek systems\\Udemy\\.Net Core Mvc\\BulkyBook\\BulkyBookWeb\\wwwroot\\images\\products\\b789ae99-acf7-400c-a4b6-93453769b17d.jpg",
-      "SourceId": "BulkyBookWeb",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\internship\\Tek systems\\Udemy\\.Net Core Mvc\\BulkyBook\\BulkyBookWeb\\wwwroot\\",
-      "BasePath": "_content/BulkyBookWeb",
-      "RelativePath": "images/products/b789ae99-acf7-400c-a4b6-93453769b17d.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\b789ae99-acf7-400c-a4b6-93453769b17d.jpg"
     },
     {
       "Identity": "D:\\internship\\Tek systems\\Udemy\\.Net Core Mvc\\BulkyBook\\BulkyBookWeb\\wwwroot\\js\\product.js",

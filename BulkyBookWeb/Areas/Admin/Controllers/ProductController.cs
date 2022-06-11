@@ -91,14 +91,15 @@ public class ProductController : Controller
             if (obj.Product.Id == 0)
             {
                 _unitOfWork.Product.Add(obj.Product);
-                TempData["success"] = "Product created successfully";
             }
             else
             {
                 _unitOfWork.Product.Update(obj.Product);
-                TempData["success"] = "Product updated successfully";
             }
+
+            _unitOfWork.Product.Add(obj.Product);
             _unitOfWork.Save();
+            TempData["success"] = "Product created successfully";
             return RedirectToAction("Index");
         }
         return View(obj);

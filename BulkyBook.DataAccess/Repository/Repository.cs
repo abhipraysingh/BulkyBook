@@ -23,10 +23,7 @@ namespace BulkyBook.DataAccess.Repository
         {
             dbSet.Add(entity);
         }
-        public void Update(T entity)
-        {
-            dbSet.Update(entity);
-        }
+
         public IEnumerable<T> GetAll(string? includeProperties = null)
         {
             IQueryable<T> query = dbSet;
