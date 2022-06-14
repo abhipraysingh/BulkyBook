@@ -1,11 +1,14 @@
 ﻿using BulkyBook.DataAccess.Repository.IRepository;
 using BulkyBook.Models;
 using BulkyBook.Models.ViewModels;
+using BulkyBook.Utility;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace BulkyBook.Controllers;
 [Area("Admin")]
+[Authorize(Roles = SD.Role_Admin)]
 public class ProductController : Controller
 {
     private readonly IUnitOfWork _unitOfWork;
@@ -66,13 +69,13 @@ public class ProductController : Controller
         if (ModelState.IsValid)
         {
             string wwwRootPath = _hostEnvironment.WebRootPath;
-            if(file!=null)
+            if (file != null)
             {
-                string fileName=Guid.NewGuid().ToString();
-                var uploads=Path.Combine(wwwRootPath,@"images\products");
+                string fileName = Guid.NewGuid().ToString();
+                var uploads = Path.Combine(wwwRootPath, @"images\products");
                 var extension = Path.GetExtension(file.FileName);
 
-                if(obj.Product.ImageUrl!=null)
+                if (obj.Product.ImageUrl!=null)
                 {
                     var oldImagePath=Path.Combine(wwwRootPath,obj.Product.ImageUrl.TrimStart('\\'));
                     if(System.IO.File.Exists(oldImagePath))

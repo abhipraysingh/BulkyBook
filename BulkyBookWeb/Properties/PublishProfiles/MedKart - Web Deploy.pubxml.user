@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAJJIDs7WiO0mYRNQ4Ngl1pAAAAAACAAAAAAAQZgAAAAEAACAAAAAatdyFPqIP5DfM4ROLQT4LjHabpZiyrqbWZEqDWj9t+QAAAAAOgAAAAAIAACAAAAB0f15pTDXNyPv0B75DEw47PMrYQ4FtPbSOMxNcf+SBK4AAAAD1kMLVilZ+fLRhRw4lAelbVSw7nsnz4HyczH0B36XH6zpCSRIfJYc/ZBJ+A/hn8A8Aq+uPKrVr2cc4g38zBCot2jbPp30EDdxG2i6hs8LypUUXKBRFVBiDR+VFYnuqiZt3elucbP+cEBTuTc4ebU0c5AvC3PW4GIysMt+X1taepkAAAADBQ/x1o9jhLO5ElgDJq+8DdtUPU63JLXOIFilu1Ky7dmqAtvbFCp5l4veERHWy1CU6C+sUd22Xvxbrnk3CLiBs</EncryptedPassword>
+    <History>True|2022-06-14T17:06:11.3811682Z;True|2022-06-14T22:21:54.6958376+05:30;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=tcp:medkart.database.windows.net,1433%3bInitial Catalog=Medkart_db%3bPersist Security Info=False%3bUser ID=admin-sql%3bPassword=Abhi%40123%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
