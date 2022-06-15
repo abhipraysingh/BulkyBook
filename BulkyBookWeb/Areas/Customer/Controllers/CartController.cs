@@ -16,7 +16,7 @@ namespace BulkyBookWeb.Areas.Customer.Controllers
         private readonly IUnitOfWork _unitOfWork;
         [BindProperty]
         public ShoppingCartVM ShoppingCartVM { get; set; }
-        public int OrderTotal { get; set; }
+       // public int OrderTotal { get; set; }
         public CartController(IUnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;
@@ -123,8 +123,8 @@ namespace BulkyBookWeb.Areas.Customer.Controllers
 
             if (applicationUser.CompanyId.GetValueOrDefault() == 0)
             {
-                //Stripe settings
-                var domain = "https://localhost:7293/";
+                //Stripe settingshttps://medkart.azurewebsites.net/
+                var domain = "https://medkart.azurewebsites.net/";
                 var options = new SessionCreateOptions
                 {
                     PaymentMethodTypes = new List<string>
@@ -176,7 +176,7 @@ namespace BulkyBookWeb.Areas.Customer.Controllers
 
         public IActionResult OrderConfirmation(int id)
         {
-            OrderHeader orderHeader = _unitOfWork.OrderHeader.GetFirstOrDefault(u => u.Id == id);
+            OrderHeader orderHeader = _unitOfWork.OrderHeader.GetFirstOrDefault(u => u.Id == id, includeProperties: "ApplicationUser");
            
             if(orderHeader.PaymentStatus!=SD.PaymentStatusDelayedPayment)
             {

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RrKCjKX7FXY79zbpX87W/LG73lO+W7ZdSTr2iPPjYCs=",
+  "Hash": "m3XFRpcMmlF1UtQCCWihG/QUQiiauKX64av+GuQ9Rg0=",
   "Source": "BulkyBookWeb",
   "BasePath": "_content/BulkyBookWeb",
   "Mode": "Default",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "C:\\Users\\Abhipray Singh\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.5\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\internship\\Tek systems\\Udemy\\.Net Core Mvc\\BulkyBook\\BulkyBookWeb\\obj\\Release\\net6.0\\scopedcss\\bundle\\BulkyBookWeb.styles.css",
+      "Identity": "D:\\internship\\Tek systems\\Udemy\\.Net Core Mvc\\BulkyBook\\BulkyBookWeb\\obj\\Release\\net6.0\\win-x86\\scopedcss\\bundle\\BulkyBookWeb.styles.css",
       "SourceId": "BulkyBookWeb",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\internship\\Tek systems\\Udemy\\.Net Core Mvc\\BulkyBook\\BulkyBookWeb\\obj\\Release\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\internship\\Tek systems\\Udemy\\.Net Core Mvc\\BulkyBook\\BulkyBookWeb\\obj\\Release\\net6.0\\win-x86\\scopedcss\\bundle\\",
       "BasePath": "_content/BulkyBookWeb",
       "RelativePath": "BulkyBookWeb.styles.css",
       "AssetKind": "All",
@@ -1051,13 +1051,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\internship\\Tek systems\\Udemy\\.Net Core Mvc\\BulkyBook\\BulkyBookWeb\\obj\\Release\\net6.0\\scopedcss\\bundle\\BulkyBookWeb.styles.css"
+      "OriginalItemSpec": "D:\\internship\\Tek systems\\Udemy\\.Net Core Mvc\\BulkyBook\\BulkyBookWeb\\obj\\Release\\net6.0\\win-x86\\scopedcss\\bundle\\BulkyBookWeb.styles.css"
     },
     {
-      "Identity": "D:\\internship\\Tek systems\\Udemy\\.Net Core Mvc\\BulkyBook\\BulkyBookWeb\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\BulkyBookWeb.bundle.scp.css",
+      "Identity": "D:\\internship\\Tek systems\\Udemy\\.Net Core Mvc\\BulkyBook\\BulkyBookWeb\\obj\\Release\\net6.0\\win-x86\\scopedcss\\projectbundle\\BulkyBookWeb.bundle.scp.css",
       "SourceId": "BulkyBookWeb",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\internship\\Tek systems\\Udemy\\.Net Core Mvc\\BulkyBook\\BulkyBookWeb\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\internship\\Tek systems\\Udemy\\.Net Core Mvc\\BulkyBook\\BulkyBookWeb\\obj\\Release\\net6.0\\win-x86\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BulkyBookWeb",
       "RelativePath": "BulkyBookWeb.bundle.scp.css",
       "AssetKind": "All",
@@ -1068,7 +1068,7 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\internship\\Tek systems\\Udemy\\.Net Core Mvc\\BulkyBook\\BulkyBookWeb\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\BulkyBookWeb.bundle.scp.css"
+      "OriginalItemSpec": "D:\\internship\\Tek systems\\Udemy\\.Net Core Mvc\\BulkyBook\\BulkyBookWeb\\obj\\Release\\net6.0\\win-x86\\scopedcss\\projectbundle\\BulkyBookWeb.bundle.scp.css"
     },
     {
       "Identity": "D:\\internship\\Tek systems\\Udemy\\.Net Core Mvc\\BulkyBook\\BulkyBookWeb\\wwwroot\\css\\Bootswatch.css",

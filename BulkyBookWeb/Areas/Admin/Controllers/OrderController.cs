@@ -90,10 +90,9 @@ namespace BulkyBookWeb.Areas.Admin.Controllers
         }
 
 
-        public IActionResult PaymentConfirmation(int orderHeaderId)
+        public IActionResult PaymentConfirmation(int orderHeaderid)
         {
-            OrderHeader orderHeader = _unitOfWork.OrderHeader.GetFirstOrDefault(u => u.Id == orderHeaderId);
-
+            OrderHeader orderHeader = _unitOfWork.OrderHeader.GetFirstOrDefault(u => u.Id == orderHeaderid);
             if (orderHeader.PaymentStatus == SD.PaymentStatusDelayedPayment)
             {
                 var service = new SessionService();
@@ -101,13 +100,11 @@ namespace BulkyBookWeb.Areas.Admin.Controllers
                 //check the stripe status
                 if (session.PaymentStatus.ToLower() == "paid")
                 {
-                    _unitOfWork.OrderHeader.UpdateStatus(orderHeaderId, orderHeader.OrderStatus, SD.PaymentStatusApproved);
+                    _unitOfWork.OrderHeader.UpdateStatus(orderHeaderid, orderHeader.OrderStatus, SD.PaymentStatusApproved);
                     _unitOfWork.Save();
                 }
-
             }
-
-            return View(orderHeaderId);
+            return View(orderHeaderid);
 
         }
 

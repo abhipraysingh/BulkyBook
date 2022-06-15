@@ -35,7 +35,7 @@ namespace BulkyBook.DataAccess.DbInitializer
                     _db.Database.Migrate();
                 }
             }
-            catch
+            catch (Exception ex)
             {
 
             }
